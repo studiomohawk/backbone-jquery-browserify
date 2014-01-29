@@ -1,0 +1,20 @@
+{
+  "name": "backbone-browserify",
+  "version": "0.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy index.js:bundle.js --live",
+    "bundle": "browserify index.js -o bundle.js"
+  },
+  "author": "Yuya Saito",
+  "license": "MIT",
+  "dependencies": {
+    "backbone": "~1.1.0",
+    "jquery": "~2.1.0"
+  },
+  "devDependencies": {
+    "beefy": "~0.7.1",
+    "browserify": "~3.24.2"
+  }
+}
